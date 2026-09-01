@@ -7,3 +7,8 @@ git commit -m "primeiro commit"
 git branch -M main
 git remote add origin https://github.com/EmillySSilva/curso_git_gitHub.git
 git push -u origin main  
+
+
+# modificando arquivo 
+git commit test_criando_arquivo -m "adicionando informação de modificação de arquivo"
+
