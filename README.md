@@ -44,17 +44,24 @@ vamos criar uma conta em: https://github.com
 
 #Enviando repositório para o GH
 
-Podemos facilmente enviar nossos repos para o Github;
-Precisa criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar; 
-E esta sequência que parece ser complexa é facilmente executada por poucos comandos;
-Vale lembrar que só fazemos uma vez por projeto este fluxo;
-Porém alguns dos comandos utilizados vão ser úteis ao longo do curso;
+#Podemos facilmente enviar nossos repos para o Github;
+#Precisa criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar; 
+#E esta sequência que parece ser complexa é facilmente executada por poucos comandos;
+#Vale lembrar que só fazemos uma vez por projeto este fluxo;
+#Porém alguns dos comandos utilizados vão ser úteis ao longo do curso;
 
 #Códigos para criar repositório
 
-git init 
-git add primeiro_arquivo
-git commit -m "primeiro commit"
-git branch -M main
-remote add oringin https://github.com/EmillySSilva/curso_git_1.git
-git push -u origin main  
+#git init 
+#git add primeiro_arquivo
+#git commit -m "primeiro commit"
+#git branch -M main
+#remote add oringin https://github.com/EmillySSilva/curso_git_1.git
+#git push -u origin main  
+
+#OBS.: CASO DE ERRO DE PERMISSÃO 
+#git remote -v (*MOSTRA A ORIGEM)
+#git remote rm origin  (*RETIRA DA ORIGEM ATUAL)
+#git remote -v
+#git remote add origin git@github.com:EmillySSilva/curso_git_gitHub.git 
+
