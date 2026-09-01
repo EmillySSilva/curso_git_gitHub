@@ -1,1 +1,9 @@
-Teste de conteudo
+
+# Códigos para criar repositório
+
+git init 
+git add primeiro_arquivo
+git commit -m "primeiro commit"
+git branch -M main
+git remote add origin https://github.com/EmillySSilva/curso_git_gitHub.git
+git push -u origin main  
